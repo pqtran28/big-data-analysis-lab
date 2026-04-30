@@ -1,0 +1,27 @@
+The Lord of the Rings: The Fellowship of the Ring (2001), M, 4.00
+The Lord of the Rings: The Fellowship of the Ring (2001), F, 3.80
+Mad Max: Fury Road (2015), F, 3.32
+Mad Max: Fury Road (2015), M, 4.00
+Sunset Boulevard (1950), M, 4.33
+Sunset Boulevard (1950), F, 4.50
+No Country for Old Men (2007), M, 3.92
+No Country for Old Men (2007), F, 3.83
+Fight Club (1999), F, 3.50
+Fight Club (1999), M, 3.50
+The Godfather: Part II (1974), M, 4.06
+The Godfather: Part II (1974), F, 3.94
+The Social Network (2010), F, 3.67
+The Social Network (2010), M, 4.00
+Lawrence of Arabia (1962), F, 3.31
+Lawrence of Arabia (1962), M, 3.55
+The Terminator (1984), M, 3.93
+The Terminator (1984), F, 4.14
+Gladiator (2000), M, 3.59
+Gladiator (2000), F, 3.64
+The Silence of the Lambs (1991), M, 3.33
+The Silence of the Lambs (1991), F, 3.00
+Psycho (1960), F, 4.00
+The Lord of the Rings: The Return of the King (2003), F, 3.90
+The Lord of the Rings: The Return of the King (2003), M, 3.75
+E.T. the Extra-Terrestrial (1982), M, 3.81
+E.T. the Extra-Terrestrial (1982), F, 3.55
