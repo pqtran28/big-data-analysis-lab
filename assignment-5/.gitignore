@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+.env
+
+# Model weights (tải lại được)
+*.pt
+*.onnx
+
+# Database & results (sinh ra khi chạy)
+results/*.db
+results/*.csv
+results/*.jpg
+
+# OpenCV temp
+*.jpg
+*.png
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
