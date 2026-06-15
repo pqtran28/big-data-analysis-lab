@@ -17,7 +17,6 @@ results/*.jpg
 
 # OpenCV temp
 *.jpg
-*.png
 
 # Jupyter
 .ipynb_checkpoints/
