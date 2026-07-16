@@ -39,12 +39,12 @@ def connect_producer(retries: int = 10) -> KafkaProducer:
                 compression_type="gzip",
                 linger_ms=50,
             )
-            print(f"[Camera] ✅ Kết nối Kafka thành công")
+            print(f"[Camera] Kết nối Kafka thành công")
             return producer
         except NoBrokersAvailable:
-            print(f"[Camera] ⏳ Retry {i+1}/{retries} – Kafka chưa sẵn sàng...")
+            print(f"[Camera] Retry {i+1}/{retries} – Kafka chưa sẵn sàng...")
             time.sleep(3)
-    print("[Camera] ❌ Không thể kết nối Kafka. Hãy khởi động Kafka trước.")
+    print("[Camera] Không thể kết nối Kafka. Hãy khởi động Kafka trước.")
     sys.exit(1)
 
 
@@ -82,7 +82,7 @@ def generate_demo_frame(frame_idx: int) -> np.ndarray:
         y = 150
         w, h = 60, 120
         cv2.rectangle(frame, (x, y), (x+w, y+h), colors[i % len(colors)], -1)
-        # Vẽ đầu
+        # 
         cx, cy = x + w//2, y - 20
         cv2.circle(frame, (cx, cy), 18, colors[i % len(colors)], -1)
 
@@ -107,11 +107,11 @@ def run_camera(source: str):
         src = int(source) if source.isdigit() else source
         cap = cv2.VideoCapture(src)
         if not cap.isOpened():
-            print(f"[Camera] ❌ Không mở được nguồn: {source}")
+            print(f"[Camera] Không mở được nguồn: {source}")
             sys.exit(1)
         print(f"[Camera] 🎥 Đang đọc từ: {source}")
 
-    print(f"[Camera] 📤 Publish lên topic '{TOPIC_RAW_FRAMES}' @ {TARGET_FPS} FPS")
+    print(f"[Camera] Publish lên topic '{TOPIC_RAW_FRAMES}' @ {TARGET_FPS} FPS")
     print(f"[Camera] ID: {CAMERA_ID}  |  Nhấn Ctrl+C để dừng\n")
 
     sent_count = 0
